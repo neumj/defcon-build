@@ -1,7 +1,7 @@
-site_name: DEFCON-0 Build
+site_name: DEFCON-1 PC Build
 repo_name: neumj/defcon-build
-repo_url: https://github.com/neumj/cortez
-copyright: Copyright &copy; 2023 - Neumann/Popov
+repo_url: https://github.com/neumj/defcon-build
+copyright: Copyright &copy; 2023 - Neumann
     
 theme:
   name: material
@@ -10,18 +10,18 @@ theme:
   palette:
     # Palette toggle for light mode
     - scheme: default
-      primary: teal
+      primary: amber
       toggle:
         icon: material/weather-night 
         name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
-      primary: teal
+      primary: amber
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  logo: assets/pirate-50.png
-  favicon: assets/pirate-50.png
+  logo: assets/nuclear-symbol-icon.png
+  favicon: assets/nuclear-symbol-icon.png
   features:
     - content.tabs.link
     - navigation.footer
@@ -51,25 +51,23 @@ plugins:
       type: datetime
       timezone: America/New_York
   - with-pdf:
-      author: Neumann, Popov
+      author: Neumann
       cover: true
       back_cover: false
-      cover_title: Our Log of The Sea of Cortez
-      cover_subtitle: June 2023
+      cover_title: Defcon 1 PC Build
+      cover_subtitle: Our First Custom Computer Build
 
 extra:
   generator: false
 
 nav:
     - Home: index.md
-    - La Paz: La_Paz_20230616.md
-    - La Paz: La_Paz_20230617.md
-    - Ensenada Grande: Ensenada_Grande_20230618.md
-    - Isla San Francisco: Isla_San_Francisco_20230619.md
-    - San Evaristo: San_Evaristo_20230620.md
-    - Caleta Partida: Caleta_Partida_20230621.md
-    - Ensenada Candelero: Ensenada_Candelero_20230622.md
-    - Caleta Lobos: Caleta_Lobos_20230623.md
-    - La Paz: La_Paz_20230624.md
-    - Photo Gallery: Photo_Gallery.md
+    - Components:
+      - Power Supply: power-supply.md
+      - Motherboard: motherboard.md
+      - Central Processing Unit: cpu.md
+      - Random Access Memory: ram.md
+      - Storage: storage.md
+      - Graphics Processing Unit: gpu.md
+      - Case: case.md
     - Entries by Tags: tags.md

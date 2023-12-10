@@ -7,9 +7,9 @@ tags:
 
 ## Purpose
 
-The power does taco, burrito..
+The power supply is the structure and base for distributing power to the other componenets.
 
 ## Model
 
-ABCD Nachos Cheese
+- [Thermaltake Toughpower GX2 600w](https://thermaltakeusa.com/products/toughpower-gx2-600w-ps-tpd-0600nnfagu-2)
 

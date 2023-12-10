@@ -58,3 +58,6 @@ Docker clean-up:
 ```
 $ docker compose down
 ```
+
+conda env create -f environment.yml
+conda activate defcon
